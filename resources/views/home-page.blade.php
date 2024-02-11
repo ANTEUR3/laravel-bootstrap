@@ -35,13 +35,7 @@
                 <ul>
                     <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
                     <li><a class="nav-link scrollto" href="#about">About</a></li>
-
-
-
-
-
-
-
+                    <li><a class="nav-link scrollto" href="#services">services</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                     <li><a class="getstarted scrollto" href="{{ url('/singUp') }}">Get Started</a></li>
                 </ul>
@@ -57,9 +51,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-flex flex-column justify-content-center">
-                    <h1 data-aos="fade-up">We offer modern solutions for growing your business</h1>
-                    <h2 class="mb-4" data-aos="fade-up" data-aos-delay="400">We are team of talented designers making websites with
-                        Bootstrap</h2>
+                    <h1 data-aos="fade-up">you favorite place to learn programming</h1>
+                    <h2 class="mb-4" data-aos="fade-up" data-aos-delay="400">This site enables you to improve your programming skills by taking exams in many fields of computer science.</h2>
                     <div class="row" >
                         <div class="col-5 col-sm-8">
                             <button class="btn btn-primary">
@@ -106,38 +99,32 @@
         </section><!-- End About Section -->
 
         <!-- ======= Values Section ======= -->
-        <section id="values" class="values">
+        <section id="services" class="values">
 
             <div class="container" data-aos="fade-up">
 
                 <header class="section-header">
-                    <h2>Our Values</h2>
-                    <p>Odit est perspiciatis laborum et dicta</p>
+                    <h2>Our services</h2>
+
                 </header>
 
-                <div class="row">
+                <div class="row justify-content-around">
 
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                        <div class="box">
-                            <img src="{{ asset('img/values-1.png') }}" class="img-fluid" alt="">
-                            <h3>Ad cupiditate sed est odio</h3>
-                            <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
-                        </div>
-                    </div>
+
 
                     <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
                         <div class="box">
-                            <img src="assets/img/values-2.png" class="img-fluid" alt="">
-                            <h3>Voluptatem voluptatum alias</h3>
-                            <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
+                            <img src="{{ asset('assets/img/algorithm.png') }}" class="img-fluid" alt="">
+                            <h3>algorithms exam</h3>
+                            <p>Conduct exams regarding algorithms and data structures</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
                         <div class="box">
-                            <img src="assets/img/values-3.png" class="img-fluid" alt="">
-                            <h3>Fugit cupiditate alias nobis.</h3>
-                            <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+                            <img src="{{ asset('assets/img/html-5.png') }}" class="img-fluid" alt="">
+                            <h3>html exam</h3>
+                            <p>Learn to design and create web pages by taking exams in the html language</p>
                         </div>
                     </div>
 
@@ -187,34 +174,16 @@
                     <div class="col-lg-6">
 
                         <div class="row gy-4">
-                            <div class="col-md-6">
-                                <div class="info-box">
-                                    <i class="bi bi-geo-alt"></i>
-                                    <h3>Address</h3>
-                                    <p>A108 Adam Street,<br>New York, NY 535022</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="info-box">
-                                    <i class="bi bi-telephone"></i>
-                                    <h3>Call Us</h3>
-                                    <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
+
+
+                            <div class="col-md-10">
                                 <div class="info-box">
                                     <i class="bi bi-envelope"></i>
                                     <h3>Email Us</h3>
-                                    <p>info@example.com<br>contact@example.com</p>
+                                    <p>anteuryounes1@gmail.com</p>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="info-box">
-                                    <i class="bi bi-clock"></i>
-                                    <h3>Open Hours</h3>
-                                    <p>Monday - Friday<br>9:00AM - 05:00PM</p>
-                                </div>
-                            </div>
+
                         </div>
 
                     </div>
@@ -266,32 +235,16 @@
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
 
-        <div class="footer-newsletter">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12 text-center">
-                        <h4>Our Newsletter</h4>
-                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                    </div>
-                    <div class="col-lg-6">
-                        <form action="" method="post">
-                            <input type="email" name="email"><input type="submit" value="Subscribe">
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <div class="footer-top">
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-5 col-md-12 footer-info">
                         <a href="index.html" class="logo d-flex align-items-center">
-                            <img src="assets/img/logo.png" alt="">
-                            <span>FlexStart</span>
+                            <img src="{{ asset('assets/img/492923235fc80e2fde5d2ceb7e3c38f1-removebg-preview.png') }}" alt="">
+                            <span>InfoSchool</span>
                         </a>
-                        <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita
-                            valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                        <p>One of the sites that helps a beginner learn programming.</p>
                         <div class="social-links mt-3">
                             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -305,7 +258,7 @@
                         <ul>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#Services">Services</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
                         </ul>
@@ -314,21 +267,14 @@
                     <div class="col-lg-2 col-6 footer-links">
                         <h4>Our Services</h4>
                         <ul>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                        </ul>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">algorithms exams</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">html exams </a></li>
+                            </ul>
                     </div>
 
                     <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                         <h4>Contact Us</h4>
                         <p>
-                            A108 Adam Street <br>
-                            New York, NY 535022<br>
-                            United States <br><br>
-                            <strong>Phone:</strong> +1 5589 55488 55<br>
                             <strong>Email:</strong> info@example.com<br>
                         </p>
 
